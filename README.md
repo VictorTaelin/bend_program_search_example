@@ -76,9 +76,4 @@ program search, which, currently, can only run on CPUs.
 
 ## Note
 
-The algorithms listed here are illustrative and not meant to be efficient. Our
-fastest λ-Calculus evaluators use HOAS rather than explicit substitutions, for
-example, which performs extremely well on HVM. Moreover, there is a promising
-new technique to perform fast program search by exploiting superposition (fan
-nodes) on Interaction Combiantors. There are compelling results here, which we
-aim to publish in the future!
+Just to be clear, this repo is just benchmarking some very very naive program search on GPUs for demonstration purposes. The real algorithms we're using are not public yet!
