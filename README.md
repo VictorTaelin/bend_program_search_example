@@ -61,7 +61,7 @@ yet, on GPUs, warp divergence impacted actual throughput. With better scheduling
 this could be greatly improved in the future. In a simpler language,
 though, it achieved near-ideal parallelism *and* high throughput, allowing it to beat all SOTA
 runtimes on this specific benchmark, by using an RTX 4090 to accelerate the
-computation. On single-core performance, Bend is still sub-par, because:
+computation with thousands of threads. On single-core performance, Bend is still sub-par, because:
 
 - 1. HVM is still an young project, relative to decades-old runtimes.
 
