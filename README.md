@@ -76,4 +76,4 @@ program search, which, currently, can only run on CPUs.
 
 ## Note
 
-Just to be clear, this repo is just benchmarking some very very naive program search algorithms on GPUs for demonstration purposes. The real algorithms we're using are not public yet!
+Just to be clear, this repo is just benchmarking some very very naive program search on GPUs for demonstration purposes. The real algorithms we're using are not public yet!
