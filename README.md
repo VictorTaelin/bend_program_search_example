@@ -56,8 +56,9 @@ test. Below is the time each language took to complete this search:
 
 ## Conclusion
 
-Bend was capable of parallelizing perfectly on the full λ-Calculus on CPUs, but
-not on GPUs, due to immaturity of the CUDA runtime. In a simpler language,
+Bend was capable of parallelizing perfectly on the full λ-Calculus on CPUs and GPUs;
+yet, on GPUs, warp divergence impacted actual performance. With better scheduling,
+this could be greatly improved in the future. In a simpler language,
 though, it achieved near-ideal parallelism, allowing it to beat all SOTA
 runtimes on this specific benchmark, by using an RTX 4090 to accelerate the
 computation. On single-core performance, Bend is still sub-par, because:
